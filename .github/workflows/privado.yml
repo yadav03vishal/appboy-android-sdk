@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.ref_name == github.event.repository.default_branch
     env:
-      PRIVADO_API_TOKEN: "api9b51ce25e9f8087c1daef6e35d8da444f77f8cc266c5a57f5f"
+      PRIVADO_API_TOKEN: "apid00f1fc8a4adcd244088717f87dca4c47ba84332ad595e1147"
       PRIVADO_API_ID: "C2C82AFBBDC48B63250DB052"
       PRIVADO_API_HOST: "https://activitylogs.gcp.privado-dev.com"
       PRIVADO_CI_PLATFORM: "GITHUB_ACTIONS"
